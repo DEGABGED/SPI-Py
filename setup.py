@@ -1,6 +1,6 @@
 from distutils.core import setup, Extension
 
-module1 = Extension('spi', sources = ['spi.c'])
+module1 = Extension('spi', sources = ['spi_fork.c'])
 
 setup (
     name = 'SPI-Py',
